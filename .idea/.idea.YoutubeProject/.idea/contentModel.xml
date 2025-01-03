@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AnGim\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AnGim\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_YoutubeProject.157972166.00" t="ExcludeRecursive" />
+    <e p="D:\UnityGames\YoutubeProject" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Project" t="Include">
+          <e p="CodeBase" t="Include">
+            <e p="Hero" t="Include">
+              <e p="HeroAnimator.cs" t="Include" />
+              <e p="HeroMove.cs" t="Include" />
+            </e>
+            <e p="Infrastructure" t="Include">
+              <e p="Game.cs" t="Include" />
+              <e p="GameBootstrapper.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="IInputService.cs" t="Include" />
+              <e p="InputService.cs" t="Include" />
+              <e p="MobileInputService.cs" t="Include" />
+              <e p="StandaloneInputService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="SimpleInput" t="Include">
+            <e p="Credits.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="AxisInputDrawer.cs" t="Include" />
+              <e p="BaseInputDrawer.cs" t="Include" />
+              <e p="ButtonInputDrawer.cs" t="Include" />
+              <e p="KeyInputDrawer.cs" t="Include" />
+              <e p="MouseButtonInputDrawer.cs" t="Include" />
+              <e p="SimpleInput.Editor.asmdef" t="Include" />
+            </e>
+            <e p="Example" t="Include">
+              <e p="ExamplePlayerController.cs" t="Include" />
+            </e>
+            <e p="Readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AxisInputs" t="Include">
+                <e p="AxisInputKeyboard.cs" t="Include" />
+                <e p="AxisInputMouse.cs" t="Include" />
+                <e p="AxisInputMoveGesture.cs" t="Include" />
+                <e p="AxisInputPinchGesture.cs" t="Include" />
+                <e p="AxisInputRotateGesture.cs" t="Include" />
+                <e p="AxisInputSwipeGesture.cs" t="Include" />
+                <e p="AxisInputUI.cs" t="Include" />
+                <e p="AxisInputUIArrows.cs" t="Include" />
+                <e p="Dpad.cs" t="Include" />
+                <e p="Joystick.cs" t="Include" />
+                <e p="SteeringWheel.cs" t="Include" />
+                <e p="Touchpad.cs" t="Include" />
+              </e>
+              <e p="ButtonInputs" t="Include">
+                <e p="ButtonInputKeyboard.cs" t="Include" />
+                <e p="ButtonInputSwipeGesture.cs" t="Include" />
+                <e p="ButtonInputUI.cs" t="Include" />
+              </e>
+              <e p="Core" t="Include">
+                <e p="BaseInput.cs" t="Include" />
+                <e p="ISimpleInputDraggable.cs" t="Include" />
+                <e p="ISimpleInputDraggableMultiTouch.cs" t="Include" />
+                <e p="NonDrawingGraphic.cs" t="Include" />
+                <e p="SelectivePointerInput.cs" t="Include" />
+                <e p="SimpleInputDragListener.cs" t="Include" />
+                <e p="SimpleInputMultiDragListener.cs" t="Include" />
+                <e p="SimpleInputUtils.cs" t="Include" />
+                <e p="SwipeGestureBase.cs" t="Include" />
+                <e p="UnityInputProvider.cs" t="Include" />
+              </e>
+              <e p="KeyInputs" t="Include">
+                <e p="KeyInputKeyboard.cs" t="Include" />
+                <e p="KeyInputSwipeGesture.cs" t="Include" />
+                <e p="KeyInputUI.cs" t="Include" />
+              </e>
+              <e p="MouseButtonInputs" t="Include">
+                <e p="MouseButtonInputKeyboard.cs" t="Include" />
+                <e p="MouseButtonInputSwipeGesture.cs" t="Include" />
+                <e p="MouseButtonInputUI.cs" t="Include" />
+              </e>
+              <e p="SimpleInput.cs" t="Include" />
+              <e p="SimpleInputHelper.cs" t="Include" />
+            </e>
+            <e p="SimpleInput.Runtime.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="PluginYourGames" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ModulesListYG2.txt" t="Include" />
+          </e>
+          <e p="Example" t="Include">
+            <e p="Content" t="Include">
+              <e p="Font" t="Include">
+                <e p="COPYRIGHT.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="BasicData.cs" t="Include" />
+              <e p="CanvasScaleForMobile.cs" t="Include" />
+              <e p="DebugViewing.cs" t="Include" />
+              <e p="DemoTextTranslateRU.cs" t="Include" />
+              <e p="Scenes" t="Include">
+                <e p="AllDemoScenes.cs" t="Include" />
+                <e p="DemoSceneLoadButton.cs" t="Include" />
+                <e p="DemoScenePartial.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="LICENSE.txt" t="Include" />
+          <e p="Platforms" t="Include">
+            <e p="YandexGames" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AspectRatio" t="Include">
+                    <e p="AspectRatio_build.cs" t="Include" />
+                  </e>
+                  <e p="BackgroundFormat.cs" t="Include" />
+                  <e p="GradientBackground" t="Include">
+                    <e p="GradientBackground_build.cs" t="Include" />
+                  </e>
+                  <e p="LogoFormat.cs" t="Include" />
+                  <e p="PixelRatioMobile.cs" t="Include" />
+                  <e p="ProgressBar" t="Include">
+                    <e p="ProgressBar_build.cs" t="Include" />
+                  </e>
+                  <e p="SyncInitSDK.cs" t="Include" />
+                  <e p="TestLabel" t="Include">
+                    <e p="TestLabel_build.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="YandexGamePlatform.cs" t="Include" />
+              </e>
+              <e p="Version.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Basic" t="Include">
+              <e p="CallAction.cs" t="Include" />
+              <e p="GameplayAPI.cs" t="Include" />
+              <e p="GameReadyAPI.cs" t="Include" />
+              <e p="InitAttributes.cs" t="Include" />
+              <e p="IPlatformsYG2.cs" t="Include" />
+              <e p="OptionalPlatform.cs" t="Include" />
+              <e p="WindowGame.cs" t="Include" />
+              <e p="YG2.cs" t="Include" />
+              <e p="YGInsides.cs" t="Include" />
+              <e p="YGSendMessage.cs" t="Include" />
+            </e>
+            <e p="EditorScr" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="ColorYGAttribute.cs" t="Include" />
+                <e p="HeaderYGAttribute.cs" t="Include" />
+                <e p="LabelYGAttribute.cs" t="Include" />
+                <e p="NestedYGAttribute.cs" t="Include" />
+              </e>
+              <e p="DefineSymbols.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="BuildModify" t="Include">
+                  <e p="ArchivingBuild.cs" t="Include" />
+                  <e p="BuildLog.cs" t="Include" />
+                  <e p="ModifyBuild.cs" t="Include" />
+                  <e p="ProcessBuild.cs" t="Include" />
+                </e>
+                <e p="DocumentationEditor.cs" t="Include" />
+                <e p="FastButton.cs" t="Include" />
+                <e p="YGEditorStyles.cs" t="Include" />
+              </e>
+              <e p="FileYG.cs" t="Include" />
+              <e p="Module.cs" t="Include" />
+              <e p="TextStyles.cs" t="Include" />
+              <e p="Translates" t="Include">
+                <e p="Langs.cs" t="Include" />
+                <e p="VersionControl_lang.cs" t="Include" />
+              </e>
+              <e p="UnityPackagesManager.cs" t="Include" />
+            </e>
+            <e p="InfoYG" t="Include">
+              <e p="BasicSettings.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="ExampleScenes.cs" t="Include" />
+                <e p="InfoYGEditorWindow.cs" t="Include" />
+              </e>
+              <e p="InfoYG.cs" t="Include" />
+              <e p="InfoYG_lang.cs" t="Include" />
+              <e p="InfoYGReferences.cs" t="Include" />
+              <e p="SimulationSettings.cs" t="Include" />
+              <e p="TemplateSettings.cs" t="Include" />
+            </e>
+            <e p="Other" t="Include">
+              <e p="AdvCallingSimulation.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="EventsYG2Editor.cs" t="Include" />
+                <e p="PlatformEventsYG2Editor.cs" t="Include" />
+              </e>
+              <e p="EventsYG2.cs" t="Include" />
+              <e p="ImageLoadYG.cs" t="Include" />
+              <e p="PauseGameYG.cs" t="Include" />
+              <e p="PlatformEventsYG2.cs" t="Include" />
+            </e>
+            <e p="Platform" t="Include">
+              <e p="CommonOptions.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AsmdefPlatformCreate.txt" t="Include" />
+                <e p="PlatformSettingsEditor.cs" t="Include" />
+              </e>
+              <e p="PlatformSettings.cs" t="Include" />
+              <e p="PlatformSettings_langs.cs" t="Include" />
+              <e p="PlatformSettingsAttributes.cs" t="Include" />
+              <e p="PlatformToggles.cs" t="Include" />
+              <e p="ProjectSettings.cs" t="Include" />
+            </e>
+            <e p="Server" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Server.cs" t="Include" />
+                <e p="UpdatePluginYGTemp.txt" t="Include" />
+                <e p="VersionControlWindow.cs" t="Include" />
+                <e p="WelcomeWindow.cs" t="Include" />
+              </e>
+              <e p="ModuleJson.cs" t="Include" />
+              <e p="ServerInfo.cs" t="Include" />
+              <e p="ServerJson.cs" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="JsonYG.cs" t="Include" />
+              <e p="LocalStorage_yg.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Third-Party Notices.txt" t="Include" />
+          <e p="Version.txt" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SimpleInput.Editor.csproj" t="IncludeRecursive" />
+      <e p="SimpleInput.Runtime.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="YoutubeProject.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
