@@ -1,4 +1,6 @@
-﻿namespace _Project.CodeBase.Infrastructure.States
+﻿using UnityEngine;
+
+namespace _Project.CodeBase.Infrastructure.States
 {
     public class GameLoopState : IState
     {
