@@ -1,0 +1,3 @@
+Build path: D:/UnityGames/YoutubeProject/build
+Build number: 9
+PluginYG version: 2.001

@@ -1,38 +1,34 @@
-using System;
-using _Project.CodeBase.Infrastructure;
-using _Project.CodeBase.Services;
+using _Project.CodeBase.Data;
+using _Project.CodeBase.Infrastructure.Services;
+using _Project.CodeBase.Infrastructure.Services.Input;
+using _Project.CodeBase.Infrastructure.Services.PersistentProgress;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace _Project.CodeBase.Hero
 {
     [RequireComponent(typeof(CharacterController))]
-    public class HeroMove : MonoBehaviour
+    public class HeroMove : MonoBehaviour, ISaveProgress
     {
         public float movementSpeed;
 
         private CharacterController _characterController;
         private IInputService _inputService;
-        private Camera _camera;
 
         private void Awake()
         {
+            _inputService = AllServices.Container.Single<IInputService>();
+            
             _characterController = GetComponent<CharacterController>();
-            _inputService = Game.InputService;
         }
-
-        private void Start() => 
-            _camera = Camera.main;
 
         private void Update()
         {
-            Vector3 movementVector = Vector3.zero;
+            Vector3 movementVector = new Vector3(_inputService.Axis.x, 0, _inputService.Axis.y);
 
-            if (_inputService.Axis.magnitude > 0.001f)
+            if (movementVector.magnitude > 0.001f)
             {
-                movementVector = _camera.transform.TransformDirection(_inputService.Axis);
-                movementVector.y = 0;
                 movementVector.Normalize();
-
                 transform.forward = movementVector;
             }
 
@@ -40,5 +36,29 @@ namespace _Project.CodeBase.Hero
 
             _characterController.Move(movementVector * (movementSpeed * Time.deltaTime));
         }
+
+        public void UpdateProgress(PlayerProgress progress) => 
+            progress.WorldData.PositionOnLevel = new PositionOnLevel(CurrentLevel(), transform.position.AsVectorData());
+
+        public void LoadProgress(PlayerProgress progress)
+        {
+            if (CurrentLevel() == progress.WorldData.PositionOnLevel.Level)
+            {
+                Vector3Data savedPosition = progress.WorldData.PositionOnLevel.Position;
+
+                if (savedPosition != null) 
+                    Warp(to: savedPosition);
+            } 
+        }
+
+        private void Warp(Vector3Data to)
+        {
+            _characterController.enabled = false;
+            transform.position = to.AsUnityVector();
+            _characterController.enabled = true;
+        }
+
+        private static string CurrentLevel() => 
+            SceneManager.GetActiveScene().name;
     }
 }

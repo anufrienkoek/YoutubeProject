@@ -1,5 +1,5 @@
-using _Project.CodeBase.Infrastructure;
-using _Project.CodeBase.Services;
+using _Project.CodeBase.Infrastructure.Services;
+using _Project.CodeBase.Infrastructure.Services.Input;
 using UnityEngine;
 
 namespace _Project.CodeBase.Hero
@@ -12,7 +12,7 @@ namespace _Project.CodeBase.Hero
         private IInputService _inputService;
 
         private void Awake() => 
-            _inputService = Game.InputService;
+            _inputService = AllServices.Container.Single<IInputService>();
 
         private void Update() => 
             _animator.SetBool(Walking, _inputService.Axis.magnitude > 0.001f);
